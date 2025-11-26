@@ -32,9 +32,12 @@ fd
 ffmpegthumbnailer
 fontconfig
 fzf
+gdm
 ghostty
 github-cli
+gnome
 gnome-calculator
+gnome-extra
 gnome-keyring
 gnome-themes-extra
 grim
@@ -90,7 +93,6 @@ pamixer
 pinta
 playerctl
 plocate
-plymouth
 polkit-gnome
 postgresql-libs
 power-profiles-daemon
@@ -102,7 +104,6 @@ ripgrep
 ruby
 rust
 satty
-sddm
 signal-desktop
 slurp
 spotify
