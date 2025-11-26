@@ -32,9 +32,9 @@ if bootctl status 2>/dev/null | grep -q 'Secure Boot: enabled'; then
 fi
 
 # Must not have Gnome or KDE already install
-if pacman -Qe gnome-shell &>/dev/null || pacman -Qe plasma-desktop &>/dev/null; then
-  abort "Fresh + Vanilla Arch"
-fi
+# if pacman -Qe gnome-shell &>/dev/null || pacman -Qe plasma-desktop &>/dev/null; then
+#   abort "Fresh + Vanilla Arch"
+# fi
 
 # Must have limine installed
 command -v limine &>/dev/null || abort "Limine bootloader"
